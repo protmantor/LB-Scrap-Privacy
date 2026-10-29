@@ -54,7 +54,7 @@
 </head>
 <body>
   <main>
-    <span class="updated">Última actualización: 13 de agosto de 2026</span>
+    <span class="updated">Última actualización: 29 de octubre de 2026</span>
     <h1>Política de privacidad de LB Scrap</h1>
 
     <p>
@@ -72,6 +72,7 @@
       <li>Precios, categorías de scrap, compras, cantidades, stock, historial de cambios y auditoría.</li>
       <li>Imágenes elegidas desde la cámara o la galería cuando un usuario autorizado utiliza una función que las requiere.</li>
       <li>Preferencias locales, como la activación del bloqueo biométrico y el último valor consultado del dólar blue.</li>
+      <li>Solicitudes de precios, sus responsables y respuestas, e identificadores de instalación y tokens para entregar notificaciones.</li>
     </ul>
 
     <h2>Cómo utilizamos la información</h2>
@@ -100,6 +101,20 @@
       las opciones del sistema Android.
     </p>
 
+    <h2>Notificaciones de solicitudes de precios</h2>
+    <p>
+      Utilizamos <strong>Firebase Cloud Messaging, de Google</strong>, para avisar
+      al administrador y al operador sobre sus solicitudes. Este servicio utiliza
+      identificadores de instalación y tokens de entrega. En nuestro servidor el
+      dispositivo se vincula a la cuenta y sesión autorizadas; al cerrar sesión
+      se elimina esa vinculación. Los avisos no incluyen nombres de clientes,
+      pesajes ni precios: esos datos se consultan dentro de la app según los permisos.
+      No habilitamos Google Analytics ni seguimiento publicitario para esta función.
+    </p>
+    <p>
+      Se puede rechazar o desactivar el permiso de notificaciones en Android.
+      La bandeja de avisos y las solicitudes siguen disponibles dentro de la app.
+    </p>
     <h2>Cámara, galería y biometría</h2>
     <p>
       El acceso a cámara o galería se solicita solamente cuando el usuario elige
